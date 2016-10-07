@@ -1,0 +1,13 @@
+{
+	"require": {
+		"twig/twig": "1.*",
+		"symfony/var-dumper": "^3.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Prueba\\" : "vendor/Prueba",
+			"Controlador\\" : "src/Controlador",
+			"Modelo\\" : "src/Modelo"
+		}
+	}
+}
